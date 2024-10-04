@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b id="mm"></b>
+    
+     <h3 id="md"></h3>
+    <script>
+         let div=document.createElement("div")
+    document.body.appendChild(div)
+    div.style.border="2px solid black";
+    div.style.height="400px";
+    div.style.width="300px";
+    div.style.backgroundColor="white"
+    
+    let div1=document.createElement("div1")
+    div.appendChild(div1)
+    let id=document.getElementById("mm")
+   id.innerHTML="ID CARD"
+   div1.appendChild(id)
+   id.style.fontSize="1.5rem"
+   id.style.paddingLeft="90px"
+   let div2=document.createElement("div2")
+   div.appendChild(div2)
+   let img=document.createElement("img")
+   img.setAttribute("src","./ms babu.jpg")
+   img.style.borderRadius="200px"
+   div2.appendChild(img)
+   img.style.height="120px"
+   img.style.border="2px solid black"
+   img.style.marginLeft="90px"
+
+   img.style.boxShadow="0px 0px 20px"
+   img.style.marginTop="20px"
+   let div3=document.createElement("div3")
+   div.appendChild(div3)
+   let nm=document.getElementById("md")
+   nm.innerHTML="Name: Mahesh babu<br>Born date :9 August 1975<br>Father :Krishna<br>Education :Loyola College (BCom) <br>contact no:***"
+   div3.appendChild(nm)
+   nm.style.paddingLeft="30px"
+   
+
+   
+    </script>
+</body>
+</html>
